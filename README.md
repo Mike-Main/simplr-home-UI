@@ -27,6 +27,8 @@ ionic serve
 
 ## Features
 - Adding Ion-Card With Gradient Colors representing the brand.
+- Styling and alignment.
+- Variable properties
 
 ## License
 MIT License
