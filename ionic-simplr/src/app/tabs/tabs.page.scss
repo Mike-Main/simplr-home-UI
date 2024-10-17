@@ -1,0 +1,16 @@
+
+    // .icon-color-active{
+    //     color: #0E9FE7
+    // }
+
+    ion-tab-bar{
+        --color: gray; /* Inactive tab color */
+        --color-selected: #0E9FE7; /* Active tab color */
+    }
+
+
+
+.ion-tool-bar-height{
+    height: var(--height, 60px);  
+    padding-bottom: var(--padding-bottom, 40px);
+}

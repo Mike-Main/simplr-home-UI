@@ -1,0 +1,51 @@
+<ion-header [translucent]="true" class="header-padding">
+
+  <div class="custom-status-bar-wrapper">
+    <div class="custom-status-bar">
+      <div class="status-bar-content">
+        <ion-text class="status-icon icon-margin-start">
+          11:03
+        </ion-text>
+        <div class="inner-status-bar-content">
+          <ion-icon name="battery-charging" class="status-icon icon-margin-end"></ion-icon>
+          <ion-icon name="wifi" class="status-icon icon-margin-end"></ion-icon>
+          <ion-icon name="alarm" class="status-icon icon-margin-end"></ion-icon>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <ion-toolbar class="ion-toolbar ion-toolbar-padding">
+    <ion-fab-button slot="start" class="fab-button-margin-start">
+      <div class="text-container">{{initials}}</div>
+    </ion-fab-button>
+    <ion-title class="ion-text-lowercase ion-text-center toolbar-font-size title-text">{{title}}</ion-title> 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-content-padding">
+  <ion-card class="ion-card-margin ion-card-padding">
+    <ion-card-content class="chip-wrapper-content">
+      <ion-chip class="rectangular-chip">
+        <ion-label class="label-chip-center">SERVICE</ion-label>
+      </ion-chip>
+    </ion-card-content>
+  </ion-card>
+  <ion-item class="item-div" lines=none>
+    <ion-label class="label-text">Schnelleinstieg</ion-label>
+  </ion-item>
+  <ion-item lines="none">
+    <ion-grid class="grid-wrapper">
+      <ion-row>
+        <ion-col class="col-wrapper">
+          <ion-button class="button-wrapper" expand="full" shape="round">Datenservice verwalten</ion-button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="col-wrapper">
+          <ion-button class="button-wrapper" expand="full" shape="round">Gespeicherte Angebote</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-item> 
+</ion-content>

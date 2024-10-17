@@ -1,0 +1,41 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+
+@font-face {
+    font-family: 'My Custom Font';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../assets/fonts/MarselisPro-Black.woff');
+  }
+  
+  @font-face {
+    font-family: 'My Custom Font';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../assets/fonts/MarselisPro-Bold.woff');
+  }
+
+  @font-face {
+    font-family: 'My Custom Font';
+    font-style: normal;
+    font-weight: light;
+    src: url('../assets/fonts/MarselisPro-Light.woff');
+  }
+  
+  @font-face {
+    font-family: 'My Custom Font';
+    font-style: italic;
+    font-weight: normal;
+    src: url('../assets/fonts/MarselisPro-Italic.woff');
+  }
+  
+  @font-face {
+    font-family: 'My Custom Font';
+    font-style: italic;
+    font-weight: bold;
+    src: url('../assets/fonts/MarselisPro-BoldItalic.woff');
+  }
+
+  :root{
+    --ion-font-family: 'My Custom Font';
+  }
